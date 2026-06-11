@@ -4,7 +4,7 @@ export interface Project {
   description: string
   stack: string[]
   githubUrl: string
-  demoUrl: string
+  demoUrl?: string
 }
 
 export interface Skill {
@@ -12,10 +12,10 @@ export interface Skill {
   emoji: string
 }
 
+
 export interface Experience {
   title: string
   organization: string
   period: string
   description: string
 }
-
