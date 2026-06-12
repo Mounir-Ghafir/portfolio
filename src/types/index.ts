@@ -9,7 +9,7 @@ export interface Project {
 
 export interface Skill {
   name: string
-  emoji: string
+  icon: string
 }
 
 

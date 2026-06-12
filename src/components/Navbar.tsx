@@ -15,7 +15,7 @@ export default function Navbar() {
   const pathname = usePathname()
 
   return (
-    <nav className="flex items-center justify-center gap-6 py-4 border-b">
+    <nav className="flex items-center justify-center gap-6 py-4 border-b border-surface0">
       {links.map(({ href, label }) => (
         <Link
           key={href}
@@ -23,7 +23,7 @@ export default function Navbar() {
           className={
             pathname === href
               ? 'font-bold underline underline-offset-4'
-              : 'text-gray-500 hover:text-gray-900'
+              : 'text-overlay0 hover:text-text'
           }
         >
           {label}

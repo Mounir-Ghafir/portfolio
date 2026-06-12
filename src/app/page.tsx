@@ -7,7 +7,7 @@ export default function Home() {
       <section className="flex flex-col items-center text-center py-32 px-6 max-w-2xl mx-auto">
         <h1 className="text-4xl font-bold tracking-tight">Mounir Ghafir</h1>
         <p className="text-lg text-zinc-500 mt-2">Fullstack Developer</p>
-        <p className="text-zinc-600 dark:text-zinc-400 mt-4 max-w-md">
+        <p className="text-subtext0 mt-4 max-w-md">
           Building thoughtfully crafted digital experiences with modern tools.
         </p>
         <Link
@@ -24,10 +24,10 @@ export default function Home() {
           {projects.slice(0, 3).map((project) => (
             <div
               key={project.title}
-              className="rounded-xl border border-zinc-200 dark:border-zinc-800 p-6 flex flex-col"
+              className="rounded-xl border border-surface0 p-6 flex flex-col"
             >
               <h3 className="font-semibold text-lg">{project.title}</h3>
-              <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-2 leading-relaxed">
+              <p className="text-sm text-subtext0 mt-2 leading-relaxed">
                 {project.description}
               </p>
             </div>

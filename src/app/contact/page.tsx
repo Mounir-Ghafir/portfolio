@@ -14,7 +14,7 @@ export default function ContactPage() {
     return (
       <div className="max-w-2xl mx-auto px-6 py-24 text-center">
         <h1 className="text-3xl font-bold tracking-tight mb-4">Thanks!</h1>
-        <p className="text-zinc-600 dark:text-zinc-400">
+        <p className="text-subtext0">
           Your message has been received. I&apos;ll get back to you soon.
         </p>
       </div>
@@ -32,7 +32,7 @@ export default function ContactPage() {
             id="name"
             type="text"
             required
-            className="w-full rounded-lg border border-zinc-300 dark:border-zinc-700 bg-transparent px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-zinc-400 dark:focus:ring-zinc-500"
+            className="w-full rounded-lg border border-surface0 bg-transparent px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-surface2"
           />
         </div>
         <div>
@@ -41,7 +41,7 @@ export default function ContactPage() {
             id="email"
             type="email"
             required
-            className="w-full rounded-lg border border-zinc-300 dark:border-zinc-700 bg-transparent px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-zinc-400 dark:focus:ring-zinc-500"
+            className="w-full rounded-lg border border-surface0 bg-transparent px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-surface2"
           />
         </div>
         <div>
@@ -50,7 +50,7 @@ export default function ContactPage() {
             id="message"
             rows={5}
             required
-            className="w-full rounded-lg border border-zinc-300 dark:border-zinc-700 bg-transparent px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-zinc-400 dark:focus:ring-zinc-500 resize-y"
+            className="w-full rounded-lg border border-surface0 bg-transparent px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-surface2 resize-y"
           />
         </div>
         <button
@@ -64,7 +64,7 @@ export default function ContactPage() {
       <div className="space-y-3 text-sm">
         <a
           href="mailto:mounir@example.com"
-          className="block text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors"
+          className="block text-subtext0 hover:text-text transition-colors"
         >
           mounir@example.com
         </a>
@@ -72,7 +72,7 @@ export default function ContactPage() {
           href="https://github.com/Mounir-Ghafir"
           target="_blank"
           rel="noopener noreferrer"
-          className="block text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors"
+          className="block text-subtext0 hover:text-text transition-colors"
         >
           GitHub
         </a>
@@ -80,7 +80,7 @@ export default function ContactPage() {
           href="https://www.linkedin.com/feed/"
           target="_blank"
           rel="noopener noreferrer"
-          className="block text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors"
+          className="block text-subtext0 hover:text-text transition-colors"
         >
           LinkedIn
         </a>
