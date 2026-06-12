@@ -77,7 +77,7 @@ export default function ContactPage() {
           GitHub
         </a>
         <a
-          href="https://linkedin.com/in/mounir-ghafir"
+          href="https://www.linkedin.com/feed/"
           target="_blank"
           rel="noopener noreferrer"
           className="block text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors"
