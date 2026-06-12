@@ -19,15 +19,10 @@ export const metadata: Metadata = {
   description : "Personal portfolio built with Next.js"
 }
 
-// export default function RootLayout({
-//   children,
-// }: Readonly<{
-//   children: React.ReactNode;
-// }>)
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>){
   return (
     <html
